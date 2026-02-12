@@ -191,7 +191,7 @@ Cette structure permet :
 ---
 
 ## 📦 Structure du repository
-
+---
 frostai/
 ├── app/
 │   └── streamlit_app.py
@@ -201,7 +201,7 @@ frostai/
 │   ├── 02_admin_cortex.sql
 │   └── 99_debug.sql
 └── README.md
-
+---
 
 
 
