@@ -193,17 +193,15 @@ Cette structure permet :
 ## 📦 Structure du repository
 
 frostai/
-│
 ├── app/
 │   └── streamlit_app.py
-│
 ├── sql/
 │   ├── 00_setup.sql
 │   ├── 01_table.sql
 │   ├── 02_admin_cortex.sql
 │   └── 99_debug.sql
-│
 └── README.md
+
 
 
 ### 📁 Détail des fichiers
