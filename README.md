@@ -191,17 +191,40 @@ Cette structure permet :
 ---
 
 ## 📦 Structure du repository
+
 frostai/
 │
 ├── app/
-│ └── streamlit_app.py
+│   └── streamlit_app.py
 │
 ├── sql/
-│ ├── 00_setup.sql
-│ └── 01_table.sql
+│   ├── 00_setup.sql
+│   ├── 01_table.sql
+│   ├── 02_admin_cortex.sql
+│   └── 99_debug.sql
 │
-├── README.md
-└── requirements.txt
+└── README.md
+
+
+### 📁 Détail des fichiers
+
+- **app/streamlit_app.py**  
+  Application principale Streamlit (interface + appel Cortex + persistance).
+
+- **sql/00_setup.sql**  
+  Création du Warehouse, Database, Schema et configuration initiale.
+
+- **sql/01_table.sql**  
+  Création de la table `CHAT_MESSAGES` pour la persistance.
+
+- **sql/02_admin_cortex.sql**  
+  Activation et vérification des paramètres Snowflake Cortex.
+
+- **sql/99_debug.sql**  
+  Requêtes de test, vérifications et consultation des messages stockés.
+
+- **README.md**  
+  Documentation complète du projet.
 
 
 ---
