@@ -191,4 +191,58 @@ Cette structure permet :
 ---
 
 ## 📦 Structure du repository
+frostai/
+│
+├── app/
+│ └── streamlit_app.py
+│
+├── sql/
+│ ├── 00_setup.sql
+│ └── 01_table.sql
+│
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 🚀 Déploiement
+
+1. Configurer l’environnement Snowflake  
+2. Exécuter les scripts SQL  
+3. Créer l’application Streamlit in Snowflake  
+4. Coller le code Python  
+5. Lancer l’application  
+
+Le projet est entièrement reproductible.
+
+---
+
+## 📊 Critères couverts
+
+- Interface ergonomique
+- Gestion d’état fonctionnelle
+- Intégration Cortex correcte
+- Gestion des erreurs
+- Persistance opérationnelle
+- Documentation complète
+- Projet reproductible
+
+---
+
+## 🎯 Conclusion
+
+FrostAI démontre une intégration complète entre :
+
+- Interface Streamlit  
+- Snowflake Cortex  
+- Persistance Snowflake  
+
+Le projet respecte toutes les contraintes :
+
+- Pas de clé OpenAI  
+- Appel via Snowflake uniquement  
+- Modèle supporté par Cortex  
+- Déploiement interne Snowflake  
+
 
