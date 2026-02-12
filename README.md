@@ -191,7 +191,10 @@ Cette structure permet :
 ---
 
 ## 📦 Structure du repository
----
+
+<!-- TEST TREE START -->
+
+<pre>
 frostai/
 ├── app/
 │   └── streamlit_app.py
@@ -201,7 +204,10 @@ frostai/
 │   ├── 02_admin_cortex.sql
 │   └── 99_debug.sql
 └── README.md
----
+</pre>
+
+<!-- TEST TREE END -->
+
 
 
 
