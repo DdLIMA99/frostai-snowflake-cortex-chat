@@ -204,6 +204,7 @@ frostai/
 
 
 
+
 ### 📁 Détail des fichiers
 
 - **app/streamlit_app.py**  
