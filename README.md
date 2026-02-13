@@ -18,6 +18,14 @@ Le projet démontre l’intégration complète d’un modèle de langage dans un
 
 ---
 
+## Captures
+
+### Application
+![FrostAI - App](assets/screenshots/bot1.png)
+![FrostAI - App](assets/screenshots/bot2.png)
+
+
+
 ## 🏗️ Architecture technique
 
 L’application repose sur les composants suivants :
