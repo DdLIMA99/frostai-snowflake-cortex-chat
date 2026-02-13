@@ -25,6 +25,7 @@ Le projet démontre l’intégration complète d’un modèle de langage dans un
 ![FrostAI - App](assets/screenshots/bot2.png)
 
 
+---
 
 ## 🏗️ Architecture technique
 
